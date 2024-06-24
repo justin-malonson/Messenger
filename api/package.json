@@ -5,20 +5,20 @@
     "dev": "concurrently \"tsc -w -p tsconfig.json\" \"NODE_PATH=./dist nodemon -r dotenv/config --delay 1 dist/app.js\""
   },
   "dependencies": {
-    "aws-sdk": "^2.1046.0",
-    "axios": "^0.24.0",
+    "aws-sdk": "^2.1646.0",
+    "axios": "^0.28.0",
     "cors": "^2.8.5",
-    "express": "^4.17.2",
+    "express": "^4.19.2",
     "ffmpeg-static": "^5.0.2",
     "ffprobe-static": "^3.1.0",
     "fluent-ffmpeg": "^2.1.2",
     "form-data": "^4.0.0",
     "graphql-request": "^3.7.0",
     "image-size": "^1.0.0",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.0",
     "mime": "^3.0.0",
     "node-fetch": "^2.6.6",
-    "sharp": "^0.29.3",
+    "sharp": "^0.32.6",
     "uuid": "^8.3.2"
   },
   "devDependencies": {
